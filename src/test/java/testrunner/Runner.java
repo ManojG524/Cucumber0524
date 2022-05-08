@@ -10,11 +10,11 @@ import cucumber.api.junit.Cucumber;
 		//features="Features",
 		//features="C:/Users/admin/eclipse-workspace/CucumberAMBatch/Features/Tagging.feature",
 		features="C:\\Users\\Manoj\\eclipse-workspace\\CUCUMBERR\\Features\\Adding_Iteam_to_Card.feature",
-		glue="stepDefinitions",
-		format={"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml_output/cucumber.xml"},
-		dryRun=false,
-		monochrome=true,
-		strict=false
+		glue="stepDefinitions"
+		//format={"pretty","html:test-output","json:json_output/cucumber.json","junit:junit_xml_output/cucumber.xml"},
+		//dryRun=false,
+	 //monochrome=true,
+		//strict=false
 		//tags={"@SanityTest"} // execute only Sanity Tests
 		//tags={"@SanityTest, @RegressionTest"} // execute only sceanrios which are comes under sanity OR regression
 		//tags={"@RegressionTest","@End2End"} //execute sceanrios comes under both Regressions and End2End
